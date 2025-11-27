@@ -1,49 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Wellness+ | AI-Powered Proactive Health</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Wellness+ — AI-powered platform for health tracking, analytics, and ML-based symptom prediction." />
+
+    <!-- Fonts + CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
+    <!-- ======================
+         HEADER / NAVBAR
+    ======================= -->
     <header>
         <div class="container">
             <h1 class="logo">Wellness<span class="plus">+</span></h1>
-            <nav>
+
+            <!-- Mobile hamburger -->
+            <div class="mobile-menu-btn" onclick="toggleMenu()">☰</div>
+
+            <nav id="mainNav">
                 <ul>
-                    <li><a href="#project"><bold>Team</bold></a></li>
+                    <li><a href="#project">Team</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
+    <!-- ======================
+         HERO SECTION
+    ======================= -->
     <section id="hero" class="hero-section">
+
+        <!-- Glowing gradient blobs -->
+        <div class="gradient-blob blob-blue"></div>
+        <div class="gradient-blob blob-gold"></div>
+
         <div class="container">
-            <div class="hero-content">
+
+            <!-- Card 1 -->
+            <div class="hero-content reveal delay-1">
                 <h2>The <strong>analytics tool</strong> for managing your health.</h2>
-                <p>Helping others manage health using <strong>Data Visualization</strong> for <strong>personalized</strong> health insights, check-up, treatment information and preventative care.</p>
-                <a href="https://pluswellness.lovable.app/" class="primary-cta">Go to Health Record Manager</a>
+                <p>
+                    Helping users monitor their health using <strong>data visualization</strong>,
+                    personalized insights, treatment information and preventative care.
+                </p>
+                <a href="https://pluswellness.lovable.app/" class="primary-cta">
+                    Go to Health Record Manager
+                </a>
             </div>
-            <div class="hero-content">
-                <h2>The <strong>AI-Powered</strong> Path to Proactive Health.</h2>
-                <p>Leveraging <strong>Machine Learning</strong> for <strong>quick and easy</strong> diagnosis of dieseases.</p>
-                <a href="https://wellnessplus.lovable.app/" class="primary-cta">Go to Symptoms Predictor</a>
+
+            <!-- Card 2 -->
+            <div class="hero-content reveal delay-2">
+                <h2>The <strong>AI-Powered</strong> path to proactive health.</h2>
+                <p>
+                    Leveraging <strong>machine learning</strong> for quick and accurate symptom prediction,
+                    empowering early medical decisions.
+                </p>
+                <a href="https://wellnessplus.lovable.app/" class="primary-cta">
+                    Go to Symptoms Predictor
+                </a>
             </div>
+
         </div>
     </section>
 
+    <!-- ======================
+         TEAM SECTION
+    ======================= -->
     <section id="project" class="project-section">
         <div class="container">
-            <h3>Meet the **Six Developers**</h3>
+
+            <h3 class="reveal delay-1">Meet the Team</h3>
+            <p class="section-subtitle reveal delay-2">
+                The passionate AIML engineers behind Wellness+.
+            </p>
+
             <div class="team-grid">
-                
-                <div class="developer-card">
+
+                <!-- Developer 1 -->
+                <div class="developer-card reveal delay-1">
                     <div class="dev-img">
-                        <!-- Placeholder Image 1: Prasad Anand -->
-                        <img src="https://placehold.co/100x100/00bcd4/ffffff/png?text=PA" alt="Prasad Anand" class="profile-img">
+                        <img src="https://placehold.co/100x100/00bcd4/ffffff/png?text=PA" alt="Prasad Anand" class="profile-img" />
                     </div>
                     <h4>Prasad Anand</h4>
                     <p class="role">Lead Developer</p>
@@ -52,10 +95,10 @@
                     </div>
                 </div>
 
-                <div class="developer-card">
+                <!-- Developer 2 -->
+                <div class="developer-card reveal delay-2">
                     <div class="dev-img">
-                        <!-- Placeholder Image 2: Areen Bagwan -->
-                        <img src="https://placehold.co/100x100/007bff/ffffff/png?text=AB" alt="Areen Bagwan" class="profile-img">
+                        <img src="https://placehold.co/100x100/007bff/ffffff/png?text=AB" alt="Areen Bagwan" class="profile-img" />
                     </div>
                     <h4>Areen Bagwan</h4>
                     <p class="role">Data Specialist</p>
@@ -64,22 +107,22 @@
                     </div>
                 </div>
 
-                <div class="developer-card">
+                <!-- Developer 3 -->
+                <div class="developer-card reveal delay-3">
                     <div class="dev-img">
-                        <!-- Placeholder Image 3: Harshal Mahale -->
-                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFio-ojMTA33A/profile-displayphoto-scale_200_200/B4DZqBFO.CKQAY-/0/1763102226265?e=2147483647&v=beta&t=_R2ukBtIRTRHLUiaFaXd2UM-EXuIAUeeBy7sVgwaoRI" alt="Harshal Mahale" class="profile-img">
+                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQFio-ojMTA33A/profile-displayphoto-scale_200_200/B4DZqBFO.CKQAY-/0/1763102226265?e=2147483647&v=beta&t=_R2ukBtIRTRHLUiaFaXd2UM-EXuIAUeeBy7sVgwaoRI" alt="Harshal Mahale" class="profile-img" />
                     </div>
                     <h4>Harshal Mahale</h4>
-                    <p class="role">Data Extracter</p>
+                    <p class="role">Data Extractor</p>
                     <div class="social-links">
                         <a href="https://linkedin.com/in/harshal-mahale-4b963b34b" target="_blank">LinkedIn</a>
                     </div>
                 </div>
 
-                <div class="developer-card">
+                <!-- Developer 4 -->
+                <div class="developer-card reveal delay-1">
                     <div class="dev-img">
-                        <!-- Placeholder Image 4: Harsh Borse -->
-                        <img src="https://media.licdn.com/dms/image/v2/D5603AQGWDpgxAC13kg/profile-displayphoto-scale_200_200/B56ZkuQs4CKEAc-/0/1757417759933?e=1764806400&v=beta&t=G4BX08hTIRxRQdsnKIjJU4eARRHDs64S2py7skjBnFg" alt="Harsh Borse" class="profile-img">
+                        <img src="https://media.licdn.com/dms/image/v2/D5603AQGWDpgxAC13kg/profile-displayphoto-scale_200_200/B56ZkuQs4CKEAc-/0/1757417759933?e=1764806400&v=beta&t=G4BX08hTIRxRQdsnKIjJU4eARRHDs64S2py7skjBnFg" alt="Harsh Borse" class="profile-img" />
                     </div>
                     <h4>Harsh Borse</h4>
                     <p class="role">UI/UX & Frontend</p>
@@ -88,10 +131,10 @@
                     </div>
                 </div>
 
-                <div class="developer-card">
+                <!-- Developer 5 -->
+                <div class="developer-card reveal delay-2">
                     <div class="dev-img">
-                        <!-- Placeholder Image 5: Omkar Govilkar -->
-                        <img src="https://media.licdn.com/dms/image/v2/D4E03AQGNUMTuq4IHtg/profile-displayphoto-scale_200_200/B4EZelZ2OOHwAY-/0/1750826708587?e=2147483647&v=beta&t=23iDzhmN_O7eG_TCpNmh9n4TybuF0CvrnA7bSNJdNAw" alt="Omkar Govilkar" class="profile-img">
+                        <img src="https://media.licdn.com/dms/image/v2/D4E03AQGNUMTuq4IHtg/profile-displayphoto-scale_200_200/B4EZelZ2OOHwAY-/0/1750826708587?e=2147483647&v=beta&t=23iDzhmN_O7eG_TCpNmh9n4TybuF0CvrnA7bSNJdNAw" alt="Omkar Govilkar" class="profile-img" />
                     </div>
                     <h4>Omkar Govilkar</h4>
                     <p class="role">Healthcare Analyst</p>
@@ -100,10 +143,10 @@
                     </div>
                 </div>
 
-                <div class="developer-card">
+                <!-- Developer 6 -->
+                <div class="developer-card reveal delay-3">
                     <div class="dev-img">
-                        <!-- Placeholder Image 6: Manthan Gaikwad -->
-                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHFuqK_33-wIA/profile-displayphoto-scale_200_200/B4DZp7k7U7H0AY-/0/1763009870062?e=1764806400&v=beta&t=U45-gWNjkaLulfoAPMdSA9qGuot5idEL6z5qp-ObcVw" alt="Manthan Gaikwad" class="profile-img">
+                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQHFuqK_33-wIA/profile-displayphoto-scale_200_200/B4DZp7k7U7H0AY-/0/1763009870062?e=1764806400&v=beta&t=U45-gWNjkaLulfoAPMdSA9qGuot5idEL6z5qp-ObcVw" alt="Manthan Gaikwad" class="profile-img" />
                     </div>
                     <h4>Manthan Gaikwad</h4>
                     <p class="role">Web Developer</p>
@@ -116,11 +159,21 @@
         </div>
     </section>
 
+    <!-- ======================
+         FOOTER
+    ======================= -->
     <footer>
         <div class="container">
-            <marquee><p>&copy; 2025 Wellness+. An AIML Engineering Project.</p></marquee>
+            <p>&copy; 2025 Wellness+. An AIML Engineering Project.</p>
         </div>
     </footer>
+
+    <!-- Mobile menu JS -->
+    <script>
+      function toggleMenu() {
+        document.getElementById("mainNav").classList.toggle("active");
+      }
+    </script>
 
 </body>
 </html>
