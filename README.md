@@ -1,19 +1,21 @@
 <h1>Wellness+ - A personal health tracker and Symptoms tracker.</h1>
 <p>Wellness+ is a health focused application made for tracking user health, storing data such as prescriptions and reports and tracking symptoms to predict disease.</p>
-<ul><h3>Features</h3></ul>
+<ul><h3>Features</h3>
 <li>Simple and User-Friendly Interface</li>
 <li>Secure data storage</li>
 <li>Progress tracker</li>
 <li>Disease Predictor</li>
+</ul>
 <hr>
-<ul>Tech Stack used: </ul>
+<ul><h3>Tech Stack used:</h3> 
 <li><b>Front End: HTML, CSS, JavaScript | Framework: Vite.js</b></li>
 <li><b>Back End: Python</b></li>
 <li><b>Database: SQL</b></li>
 <li>Tools: Lovable, GitHub, VSCode</li>
+</ul>
 <br>
 <hr>
-<ol><h3>Usage:</h3></ol>
+<ol><h3>Usage:</h3>
 <li>Open the website</li>
 <li>For Health Tracker/Record Manager:</li>
 <ul>
@@ -28,4 +30,19 @@
   <li>Click on 'Start Symptoms Check'</li>
   <li>Add symptoms</li>
   <li>You'll get all possible diseases based on your symptoms and severity</li>
+</ul>
+</ol>
+<ul><h3>Future Improvements: </h3>
+<li>Mobile-Based App</li>
+<li>Seamless integration with BoAt Wearables, Apple Fitness, Google Fit, NoiseFit</li>
+<li>Cloud Sync</li>
+<li>Cross Platform integration in both websites</li>
+</ul>
+<ul><h3>Authors: </h3>
+<li>Prasad Anand</li>
+<li>Harsh Borse</li>
+<li>Manthan Gaikwad</li>
+<li>Omkar Govilkar</li>
+<li>Harshal Mahale</li>
+<li>Areen Bagwan</li>
 </ul>
