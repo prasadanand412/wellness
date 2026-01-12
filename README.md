@@ -40,10 +40,10 @@
 </ul>
 <hr>
 <ul><h3>Authors: </h3>
-<li>Prasad Anand</li>
-<li>Harsh Borse</li>
-<li>Manthan Gaikwad</li>
-<li>Omkar Govilkar</li>
-<li>Harshal Mahale</li>
-<li>Areen Bagwan</li>
+<li><a href = "https://github.com/prasadanand412/prasadanand412">Prasad Anand</a></li>
+<li><a href = "https://github.com/harsh1766">Harsh Borse</a></li>
+<li><a href = "https://github.com/SpyderTheSpider">Manthan Gaikwad</a></li>
+<li><a href = "https://github.com/Omkar640">Omkar Govilkar</li>
+<li><a href = "https://github.com/harshalmahale04">Harshal Mahale</a></li>
+<li><a href = "https://github.com/Omkar640">Areen Bagwan</a></li>
 </ul>
