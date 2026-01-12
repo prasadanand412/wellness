@@ -13,7 +13,6 @@
 <li><b>Database: SQL</b></li>
 <li>Tools: Lovable, GitHub, VSCode</li>
 </ul>
-<br>
 <hr>
 <ol><h3>Usage:</h3>
 <li>Open the website</li>
@@ -32,12 +31,14 @@
   <li>You'll get all possible diseases based on your symptoms and severity</li>
 </ul>
 </ol>
+<hr>
 <ul><h3>Future Improvements: </h3>
 <li>Mobile-Based App</li>
 <li>Seamless integration with BoAt Wearables, Apple Fitness, Google Fit, NoiseFit</li>
 <li>Cloud Sync</li>
 <li>Cross Platform integration in both websites</li>
 </ul>
+<hr>
 <ul><h3>Authors: </h3>
 <li>Prasad Anand</li>
 <li>Harsh Borse</li>
